@@ -17,6 +17,7 @@ endif
 NOSTDINC_FLAGS := \
 	-I$(M)/backport-include/ \
 	-I$(M)/backport-include/uapi \
+	-I$(M)/drivers/net/wireless/broadcom/brcm80211/include \
 	-I$(M)/include/ \
 	-I$(M)/include/uapi \
 	-include $(M)/backport-include/backport/backport.h \
